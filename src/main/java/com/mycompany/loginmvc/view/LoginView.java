@@ -48,7 +48,7 @@ public class LoginView extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("tela de login");
@@ -63,12 +63,12 @@ public class LoginView extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("SansSerif", 0, 48)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(20, 241, 168));
         jLabel7.setText("gin");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, 80, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 20, 80, -1));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("SansSerif", 0, 48)); // NOI18N
         jLabel3.setText("Lo");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, -1, -1));
         getContentPane().add(jTextFieldUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 150, 290, -1));
 
         jPasswordFieldPass.addActionListener(new java.awt.event.ActionListener() {
@@ -120,13 +120,13 @@ public class LoginView extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, 118, -1));
 
         jLabel6.setFont(new java.awt.Font("AlArabiya", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(233, 233, 233));
+        jLabel6.setForeground(new java.awt.Color(223, 223, 223));
         jLabel6.setText("@github.com/jonas-andrade");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/loginmvc/img/background.png"))); // NOI18N
-        jLabel5.setMaximumSize(new java.awt.Dimension(530, 429));
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 550, 430));
+        jPanel1.setBackground(new java.awt.Color(114, 104, 104));
+        jPanel1.setForeground(new java.awt.Color(114, 104, 104));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 550, 290));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -191,9 +191,9 @@ public class LoginView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField jPasswordFieldPass;
     private javax.swing.JTextField jTextFieldUser;
     // End of variables declaration//GEN-END:variables
