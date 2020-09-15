@@ -11,17 +11,26 @@ package com.mycompany.loginmvc.model;
  */
 public class Login {
     private int idLogin;
+    private String userLogin;
     private String passwordLogin;
     private String nivelDeAcesso;
     private Register register = new Register();
 
+  
+
+    public Login(String userLogin, String passwordLogin) {
+        
+        this.userLogin = userLogin;
+        this.passwordLogin = passwordLogin;
+    }
+    
     public Login() {
+               
+
     }
 
-    public Login(int idLogin, String passwordLogin, String nivelDeAcesso) {
-        this.idLogin = idLogin;
-        this.passwordLogin = passwordLogin;
-        this.nivelDeAcesso = nivelDeAcesso;
+    public Login(Object object, String user, String pass, Object object0) {
+         
     }
 
     public int getIdLogin() {
@@ -56,8 +65,15 @@ public class Login {
         this.register = register;
     }
 
- 
+  public String getUserLogin() {
+        return userLogin;
+    }
 
+    public void setUserLogin(String userLogin) {
+        this.userLogin = userLogin;
+    }
+  
+   
     
     
     

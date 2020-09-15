@@ -1,5 +1,9 @@
 /home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/model/Register.java
+/home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/dao/ConnectionFactory.java
+/home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/controller/LoginController.java
 /home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/model/Login.java
+/home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/dao/LoginHelper.java
+/home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/dao/LoginDao.java
 /home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/model/Contact.java
 /home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/view/LoginView.java
 /home/jonas/NetBeansProjects/loginMVC/src/main/java/com/mycompany/loginmvc/model/Address.java
